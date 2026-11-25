@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - EV ChargeFinders</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#2a3636; color:#f1f5f4; min-height:100vh; display:flex; flex-direction:column;">
+
+  //header
+  <div style="background-color:#1e1e1e; border-bottom:6px solid #2fbfae; text-align:center; padding:20px;">
+    <h1 style="color:#2fbfae; font-weight:bold; margin:0;">EV ChargeFinders</h1>
+    <p style="color:#2fbfae; font-family:Georgia, serif; margin:0;">Find every charger you want</p>
+  </div>
+
+  //login box in the middle
+  <div style="flex:1; display:flex; align-items:center; justify-content:center; padding:15px;">
+    <div style="background-color:#354444; border:2px solid #1e1e1e; border-radius:15px; padding:30px; width:100%; max-width:400px;">
+
+      <h2 style="text-align:center; margin-bottom:5px;">Welcome back</h2>
+      <p style="text-align:center; color:#b5c4c1; margin-bottom:25px;">Log in to save your favorite stations</p>
+
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control mb-3" style="height:44px;" placeholder="you@example.com" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" class="form-control mb-2" style="height:44px;" placeholder="Enter your password" minlength="8" required>
+
+        <p style="text-align:right; font-size:14px;"><a href="#" style="color:#2fbfae;">Forgot password?</a></p>
+
+        <button type="submit" class="btn w-100" style="background-color:#2fbfae; color:#11201e; font-weight:bold; height:44px;">Log In</button>
+      </form>
+
+      <p style="text-align:center; color:#b5c4c1; margin-top:20px; margin-bottom:0;">
+        Don't have an account? <a href="#" style="color:#2fbfae;">Sign up</a>
+      </p>
+    </div>
+  </div>
+
+  //footer
+  <div style="background-color:#1e1e1e; color:#b5c4c1; text-align:center; padding:12px; font-size:14px;">
+    &copy; 2026 EV Charge Finder. All rights reserved.
+  </div>
+
+</body>
+</html>
